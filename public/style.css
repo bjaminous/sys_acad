@@ -6,14 +6,14 @@ html,body{
     font-weight: 300;
     height: 100%;
     overflow: hidden;
-    
+
 }
 .menu{
     background-color: rgb(230, 230, 42) ;
     margin: auto;
     overflow: auto;
     box-shadow: 5px 5px 10px #6160604d;
-    
+
 }
 .max{
   width: 30px;
@@ -38,7 +38,7 @@ body:hover .max{
   height: 100%;
   margin: 0px;
   overflow: auto;
-  font-size: larger; 
+  font-size: larger;
 }
 .menu3{
     width: 240px;
@@ -46,8 +46,8 @@ body:hover .max{
     overflow-y: hidden;
     overflow-x: auto;
     background-color: #ffffff;
-    position: relative;  
-   
+    position: relative;
+
 }
 .menu3 img{
     width: 240px;
@@ -74,7 +74,7 @@ body:hover .max{
   right: 0;
   margin: 20px;
   transition: 0.3s ease ;
-} 
+}
 .items .sub-menu3{
   background: rgb(194, 191, 191);
   display: none;
@@ -93,7 +93,7 @@ body:hover .max{
 
 .highlight-link:hover, .highlight-link:focus, .highlight-link:active {
   background-color: rgba(230, 230, 13, 0.452);
-  
+
 }
 
 nav ul {
@@ -152,12 +152,12 @@ nav li.active:hover{
   display: flex;
   position: relative;
   justify-content: space-between;
-  top:-1500px;
+  top:-700px;
   margin-left: 250px;
   border: 0px solid #131212;
   border-radius: 2%;
 
-} 
+}
 .register .menu_btn{
   display: none;
 }
@@ -177,8 +177,8 @@ nav li.active:hover{
   justify-content: left;
   align-items: left;
   position: relative;
-  top:-1800px;
-  left: 100px;
+  top:-600px;
+  left: 0px;
   margin: auto;
   border: 0px solid #131212;
   border-radius: 2%;
@@ -212,7 +212,7 @@ nav li.active:hover{
     border-radius: 2%;
     border: 1px solid black;
   }
-  
+
 .login-form button {
   padding: 10px 20px;
   width: 420px;    justify-content: center;
@@ -258,7 +258,7 @@ nav li.active:hover{
 }
 .register-form2 option:hover{
   background-color: #ffffff;
-} 
+}
 .register-form2 button {
   padding: 10px 20px;
   width: 110px;    justify-content: center;
@@ -304,7 +304,7 @@ nav li.active:hover{
 }
 .register-form option:hover{
   background-color: #ffffff;
-} 
+}
 .register-form button {
   padding: 10px 20px;
   width: 110px;    justify-content: center;
@@ -428,12 +428,12 @@ tr:nth-child(even) {
   text-align: center;
 }
 .photo{
-  border: 1px solid rgb(148, 147, 147); 
-  width: 230px; 
+  border: 1px solid rgb(148, 147, 147);
+  width: 230px;
   height: 230px;
 }
 .infos{
-  border: 1px solid rgb(39, 39, 39); 
+  border: 1px solid rgb(39, 39, 39);
   height: 200px;
   width: 700px;
   text-align: left;
@@ -541,30 +541,30 @@ tr:nth-child(even) {
   .menu img{
     margin-left: 20%;
   }
-  
+
   .container {
     width: 100%; /* Ajuster la largeur pour remplir l'écran */
     top: 100px; /* Ajuster la position par rapport au haut de la page */
-    
+
   }
 
   .login-form input,
   .login-form button {
     width: 70%; /* Ajuster la largeur des champs et des boutons */
   }
-  
- 
+
+
 }
 @media all and (max-width: 1250px) {
   .menu{
     padding: 0;
   }
-  
+
   .menu .menu-button{
     display: block;
     z-index: 9999;
   }
-  
+
   .menu2 .element nav{
     top: 0;
     left: 0;
@@ -585,7 +585,7 @@ tr:nth-child(even) {
   }
   .menu2 hr{
     display: none;
-    
+
   }
   .menu2 .element nav ul{
     display: flex;
@@ -604,7 +604,7 @@ tr:nth-child(even) {
 
 @media all and (max-width: 300px){
   .menu img{
-    margin-left: 0%;  
+    margin-left: 0%;
   }
 }
 
@@ -612,12 +612,12 @@ tr:nth-child(even) {
   .container2 {
     width: 600px;
     left: 100px;
-  
+
   }
   .register-form select {
     width: 300px;
     margin-left: 5%;
-    
+
   }
   .register{
     padding: 0;
@@ -632,14 +632,14 @@ tr:nth-child(even) {
   .register-form  {
     margin-left: 0;
   }
- 
+
 }
 @media all and (max-width: 800px){
   .container2 {
     left: 0px;
-  
+
   }
-  
+
   .mvc{
     margin-left: -100%;
     transition: all 0.5s ease;
@@ -651,23 +651,23 @@ tr:nth-child(even) {
   }
   .register .menu_btn{
     display: block;
-    
+
   }
-    
+
 }
 @media all and (max-width: 300px){
   .container2 {
     margin-top: -100px;
-  
+
   }
   .register .menu_btn img{
     left: 200px;
   }
   .register-form select {
     width: 200px;
-    
+
   }
-    
+
 }
 @media all and (max-width: 1400px){
   .container4{

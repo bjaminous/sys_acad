@@ -67,13 +67,13 @@ function afficherAlerte() {
     if (reponse == true) {
       window.location.href = "student_course.html";
     } else {
-      
+
     }
   }
 
 //....
 document.getElementById("arrow").addEventListener("click", function() {
-    window.location.href = "course_registration.html";
+    window.location.href = "{{route('registration')}}";
 });
 document.getElementById("registre").addEventListener("click", function() {
     window.location.href = "course_registration.html";

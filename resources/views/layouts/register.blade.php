@@ -82,6 +82,10 @@
       Contact: +123456789
     </footer>
     <script src="script.js"></script>
-
 </body>
+<script>
+    document.getElementById("arrow").addEventListener("click", function() {
+    window.location.href = "{{ route('registration') }}"
+});
+</script>
 </html>

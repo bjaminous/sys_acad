@@ -9,35 +9,16 @@
 <body>
     <div class="register">
 
-       <object  data="menu_horizontal.html"  height="80px" width="3000px"  type="text/html"></object>
+       @include('layouts.header')
         <div class="menu_btn">
             <img src="menubutton.png" alt="">
         </div>
         <div class="max_btn"><img src="max.png" alt="" id="max" class="max" onclick="toggleFullscreen()">
         </div>
         <div class="mvc">
-            <object   data="menu_vertical.html" height="2000px" type="text/html"></object>
+            @include('layouts.sidebar')
         </div>
-        <div class="container2">
-            <form action="register_course.html" class="register-form">
-              <h2>Register course</h2>
-              <p>Session :*</p>
-              <select >
-                <option value="">2020/2021</option>
-                <option value="">2021/2022</option>
-                <option value="">2022/2023</option>
-                <option value="">2023/2024</option>
-              </select>
-
-              <p>Semester :*</p>
-              <select>
-                <option value="">First semester</option>
-                <option value="">Second semester</option>
-                <option value="">Third semester</option>
-              </select>
-              <br><br><button type="submit">Proceed</button>
-            </form>
-        </div>
+        @include('app.registration_form')
 
     </div>
     <script src="script.js"></script>
